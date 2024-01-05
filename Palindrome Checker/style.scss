@@ -1,0 +1,64 @@
+$textSize : 15px;
+
+#inner-box{
+  background-color: pink;
+  max-width: 700px;
+  height: 530px;
+  margin: 20px auto;
+  padding: 50px;
+}
+
+
+#core-box{
+max-width: 680px;
+height: 520px;
+border: 2px solid plum;
+margin: auto;
+}
+
+#header{
+  text-align: center;
+  padding-top: 50px;
+}
+
+
+#result{
+  max-height:200px; 
+  max-width:450px; 
+  background-color:lightblue; 
+  margin: 20px auto;
+  padding: 50px;
+  text-align: center;
+  font-size: $textSize;
+
+  p{
+    font-size:$textSize;
+  }
+}
+
+#row{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  div>#text-input{
+    margin:40px 10px;
+    height: 50px;
+    width:600px;
+    font-size: $textSize;
+    border: none;
+  }
+
+  div>input[type=text]:focus {
+  border: 3px solid none;
+  }
+
+  div>button{
+    margin: 10px;
+    padding:20px 100px;
+    background-color: limegreen;
+    border: none;
+    border-radius: 10px;
+    font-size: $textSize;
+  }
+}
